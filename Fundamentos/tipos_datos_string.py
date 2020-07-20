@@ -9,5 +9,8 @@ print("Concatenacion: " + numero1 + numero2)
 
 num1 = 1
 num2 = 2
-print("Operacion suma: ", num1 + num2)
+print("Operacion suma:", num1 + num2)
 #No se pueden concatenar string con variables numericas pero si se pueden unir por medio de la ,  
+
+#Otra opcion es convertir la parte numerica en string usando la funcion str
+print("Operacion suma: " + str(num1 + num2))
